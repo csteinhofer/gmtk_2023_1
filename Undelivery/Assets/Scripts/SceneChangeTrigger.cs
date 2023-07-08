@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeTrigger : MonoBehaviour
 {
+      
+public string sceneName = "Level1Yard";
 
 void OnTriggerEnter2D(Collider2D ChangeScene)
 {
-      SceneManager.LoadScene("Level1Yard");
+      SceneManager.LoadScene(sceneName);
 }
 
 }
