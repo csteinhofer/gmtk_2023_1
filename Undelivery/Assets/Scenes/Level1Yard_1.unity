@@ -11425,6 +11425,7 @@ GameObject:
   - component: {fileID: 2027245029}
   - component: {fileID: 2027245032}
   - component: {fileID: 2027245033}
+  - component: {fileID: 2027245034}
   m_Layer: 0
   m_Name: LilGuy
   m_TagString: Untagged
@@ -11504,7 +11505,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 1
+  m_DrawMode: 0
   m_Size: {x: 0.5833333, y: 1.2083334}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -11540,7 +11541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 2027245029}
-  my_anime: {fileID: 0}
+  my_anime: {fileID: 2027245034}
 --- !u!61 &2027245033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11580,9 +11581,30 @@ BoxCollider2D:
     oldSize: {x: 0.5833333, y: 1.2083334}
     newSize: {x: 0.5833333, y: 1.2083334}
     adaptiveTilingThreshold: 0.5
-    drawMode: 1
+    drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.5769998, y: 0.30850077}
   m_EdgeRadius: 0
+--- !u!95 &2027245034
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027245028}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7ab1946108289c94c8ad07dccd6a5457, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
