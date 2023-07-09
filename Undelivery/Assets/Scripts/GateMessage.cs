@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GateMessage : MonoBehaviour
 {
-    public GameObject target;
+    public GameObject MsgGate;
 
     // Update is called once per frame
     void Update()
@@ -14,6 +14,19 @@ public class GateMessage : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-       target.GetComponent<PopHandle>().Popping("Hit Da Gate");
+        if (collision.gameObject.tag == "Player") 
+        {
+            Debug.Log("Hit Gate");
+            MsgGate.SetActive(true);
+        }
+ 
+    }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            MsgGate.SetActive(false);
+        }
+
     }
 }
