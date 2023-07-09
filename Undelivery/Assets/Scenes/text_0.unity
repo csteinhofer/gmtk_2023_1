@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0980c811eec99e9488760742b73daf10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Level1Yard
+  nextSceneName: Level1Yard_1
   transitionDelay: 3
 --- !u!1 &1201644830
 GameObject:
