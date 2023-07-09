@@ -9915,7 +9915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21b20d529bf42140b58f7a51701390e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level1Yard_1
+  sceneName: text_1
 --- !u!66 &1071720218
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -11540,6 +11540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 2027245029}
+  my_anime: {fileID: 0}
 --- !u!61 &2027245033
 BoxCollider2D:
   m_ObjectHideFlags: 0
