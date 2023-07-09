@@ -11509,12 +11509,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
+<<<<<<< HEAD
   m_Sprite: {fileID: 167245373, guid: 2171993870e7f4146bc32c2824054a0c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_Sprite: {fileID: -5177388603050735206, guid: 8884154dfe85442a3a3578be807dbcdf, type: 3}
+  m_Color: {r: 0, g: 0.72049713, b: 1, a: 1}
+>>>>>>> parent of 892ce38 (Merge branch 'main' of https://github.com/csteinhofer/gmtk_2023_1)
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.4375, y: 0.90625}
+  m_DrawMode: 2
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -11581,18 +11586,31 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: -0.009259194, y: -0.34340197}
+=======
+  m_Offset: {x: 0, y: 0}
+>>>>>>> parent of 892ce38 (Merge branch 'main' of https://github.com/csteinhofer/gmtk_2023_1)
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
     oldSize: {x: 0.5833333, y: 1.2083334}
     newSize: {x: 0.4375, y: 0.90625}
+=======
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+>>>>>>> parent of 892ce38 (Merge branch 'main' of https://github.com/csteinhofer/gmtk_2023_1)
     adaptiveTilingThreshold: 0.5
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.4346928, y: 0.22319615}
+=======
+  m_Size: {x: 0.91, y: 0.91}
+>>>>>>> parent of 892ce38 (Merge branch 'main' of https://github.com/csteinhofer/gmtk_2023_1)
   m_EdgeRadius: 0
 --- !u!95 &2027245034
 Animator:
