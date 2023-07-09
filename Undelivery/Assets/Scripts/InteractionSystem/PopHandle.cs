@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Popup : MonoBehaviour
+public class PopHandle : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +15,10 @@ public class Popup : MonoBehaviour
     void Update()
     {
         
+    }
+    public void Popping(string msg = "default")
+    {
+
+        Debug.Log("Popping " + msg);
     }
 }
