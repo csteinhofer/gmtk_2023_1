@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2Yard.unity
     guid: 0ff5199c66485f848850fe49f72a0333
+  - enabled: 1
+    path: Assets/Scenes/Level1House.unity
+    guid: 5daca83a9a7aea24986612dcfbed77cd
+  - enabled: 1
+    path: Assets/Scenes/winRoom.unity
+    guid: 0f286f63d40e41d4a815d357c92f7b92
   m_configObjects: {}
